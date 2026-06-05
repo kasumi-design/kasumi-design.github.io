@@ -128,8 +128,9 @@ footer {
 @media (max-width: 760px) {
         .hero {
         background-image: url(images/hero-sp.png);
-        padding: 180px 20px;
-        background-size: contain;
+        padding: 0;
+        height: 360px;
+        background-size: cover;
         background-repeat: no-repeat;    
         background-position: center;
     }
