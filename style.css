@@ -129,8 +129,10 @@ footer {
         .hero {
         background-image: url(images/hero-sp.png);
         padding: 260px 20px;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;    
         background-position: center;
+        background-color: #f4f1f6;
     }
     .works-container, .skills-container {
         flex-direction: column;
