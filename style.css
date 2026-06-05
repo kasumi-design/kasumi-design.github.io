@@ -128,11 +128,10 @@ footer {
 @media (max-width: 760px) {
         .hero {
         background-image: url(images/hero-sp.png);
-        padding: 260px 20px;
+        padding: 180px 20px;
         background-size: contain;
         background-repeat: no-repeat;    
         background-position: center;
-        background-color: #f4f1f6;
     }
     .works-container, .skills-container {
         flex-direction: column;
