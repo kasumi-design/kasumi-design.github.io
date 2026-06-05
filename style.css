@@ -4,11 +4,13 @@ body {
 }
 .hero {
     background-image: url(images/hero.png);
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 420px;
+    padding: 0;
     color: white;
     text-align: center;
-    padding: 180px 20px;
 }
 .about {
     padding: 70px 20px 50px;
