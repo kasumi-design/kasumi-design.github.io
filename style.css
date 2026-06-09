@@ -279,4 +279,21 @@ footer {
     .about p {
         font-size: 16px;
     }
+    .other-card {
+        min-height: auto;
+    }
+
+    .other-card-image {
+      aspect-ratio: auto;
+      height: 160px;
+    }
+
+    .other-card .work-title {
+      min-height: auto;
+      margin-top: 10px;
+    }
+
+    .other-card .description {
+      min-height: auto;
+    }
 }
