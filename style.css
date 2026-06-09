@@ -192,9 +192,72 @@ footer {
   border-radius: 999px;
   font-size: 0.9rem;
 }
+.other-card {
+  border: 2px dashed #d7c7e8;
+}
 
+.other-card img {
+  opacity: 0.9;
+}
+
+.other-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+.other-title {
+  text-align: center;
+  color: #8c79a8;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.other-subtitle {
+  text-align: center;
+  color: #777;
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
 .back-link:hover {
   opacity: 0.8;
+}
+.other-card {
+  border: 2px dashed #d7c7e8;
+}
+
+.other-card-link {
+  text-decoration: none;
+}
+
+.other-card-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+  background: #f6f0fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8c79a8;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.other-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+.works-category {
+  clear: both;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.other-works {
+  max-width: 1500px;
+}
+.other-works .work-card {
+    width: 260px;
 }
 @media (max-width: 760px) {
         .hero {
