@@ -259,6 +259,42 @@ footer {
 .other-works .work-card {
     width: 260px;
 }
+/* other works page */
+.other-works {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 80px 24px;
+}
+
+.other-works h1 {
+  text-align: center;
+  color: #8c79a8;
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.other-works > p {
+  text-align: center;
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+.other-works .works-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.other-works .work-card {
+  width: 260px;
+  min-height: 500px;
+}
+
+.other-works .work-card img {
+  height: 260px;
+}
 @media (max-width: 760px) {
         .hero {
         background-image: url(images/hero-sp.png);
