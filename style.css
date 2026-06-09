@@ -46,6 +46,13 @@ body {
     border-radius: 10px;
     margin-bottom: 15px;
 }
+.works-category {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #8c79a8;
+    font-size: 1.6rem;
+}
 .works h2 {
     text-align: center;
     color: #7B6693;
