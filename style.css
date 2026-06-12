@@ -13,7 +13,7 @@ body {
     text-align: center;
 }
 .about {
-    padding: 70px 20px 50px;
+    padding: 60px 20px 40px;
     text-align: center;
 }
 .about h2 {
@@ -22,9 +22,9 @@ body {
     margin-bottom: 40px;
 }
 .about p {
-    line-height: 2.2;
-    color: #555;
-    font-size: 24px;
+    line-height: 1.9;
+    color: #666;
+    font-size: 18px;
 }
 .about-top {
     margin-bottom: 30px;
@@ -117,17 +117,18 @@ body {
     color: #666;
 }
 .contact {
-    padding: 80px 20px;
+    padding: 50px 20px 80px;
     text-align: center;
 }
 .contact h2 {
     color: #7B6693;
-    font-size: 40px;
+    font-size: 36px;
     margin-bottom: 20px;
 }
 .contact p {
     color: #666;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 2;
 }
 footer {
     text-align: center;
@@ -294,6 +295,30 @@ footer {
 
 .other-works .work-card img {
   height: 260px;
+}
+.contact-links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: #7B6693;
+    background-color: #ffffff;
+    border: 1.5px solid #BFA8DD;
+    padding: 14px 32px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.contact-links a:hover {
+    background-color: #F4EEFA;
+    transform: translateY(-2px);
 }
 @media (max-width: 760px) {
         .hero {
