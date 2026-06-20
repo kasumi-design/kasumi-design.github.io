@@ -1,0 +1,460 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    background: #d8cfc3;
+    color: #3a302c;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+.hero {
+    height: 520px;
+    background-image: url(images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(0,0,0,0.28) 0%,
+        rgba(0,0,0,0.12) 35%,
+        rgba(0,0,0,0) 60%
+    );
+}
+
+.hero-text {
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+.hero p {
+    font-size: 24px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: white;
+    color: #333;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.goods {
+    padding: 80px 60px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 80px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.item img {
+    width: 320px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.mug-img {
+    object-position: center 70%;
+}
+
+.item-text {
+    width: 300px;
+    line-height: 1.9;
+}
+
+.item-text h3 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.item-text p {
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.item-text span {
+    font-weight: bold;
+}
+
+.candle-item {
+    gap: 0px;
+}
+
+.candle-text {
+    margin-left: 300px;
+    margin-right: 0;
+}
+
+.candle-img {
+    position: relative;
+    left: -40px;
+}
+
+.plants {
+    height: 500px;
+    background-color: #f3f1eb;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 120px;
+    overflow: visible;
+}
+
+.plants::before {
+    content: "";
+    position: absolute;
+    top: -90px;
+    left: 0;
+    width: 100%;
+    height: 140px;
+    background: #f3f1eb;
+    clip-path: polygon(0 0, 100% 35%, 100% 100%, 0 100%);
+    z-index: 0;
+}
+
+.plant-bg {
+    position: absolute;
+    left: -250px;
+    bottom: -60px;
+    width: 900px;
+    opacity: 0.14;
+    z-index: 1;
+}
+
+.plants-text {
+    text-align: center;
+    width: 500px;
+    transform: translateX(-50px);
+}
+
+.plants-text {
+    position: relative;
+    z-index: 2;
+}
+
+.plants-text h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.plants-text p {
+    font-size: 20px;
+    line-height: 2.0;
+}
+
+.coffee {
+    background-color: #746165;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.coffee-text h2 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.coffee-text p {
+    font-size: 24px;
+    color: white;
+    line-height: 1.8;
+    margin-bottom: 60px;
+}
+
+.coffee img {
+    width: 520px;
+}
+
+.cta {
+    background: #d8cfc3;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.cta p {
+    font-size: 24px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.cta h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background: #4b403d;
+    color: white;
+    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+footer {
+    background: #2b2222;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+footer h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+h2, h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+}
+
+.btn:hover,
+.cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* ここからスマホ */
+
+@media screen and (max-width: 768px) {
+
+    .hero {
+        height: 420px;
+        padding-left: 0;
+        justify-content: center;
+        text-align: center;
+        background-position: center;
+    }
+
+    .hero::before {
+        background: rgba(0,0,0,0.25);
+    }
+
+    .hero h1 {
+        font-size: 64px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .goods {
+        padding: 60px 24px;
+    }
+
+    .section-title {
+        margin-bottom: 50px;
+    }
+
+    .section-title h2 {
+        font-size: 26px;
+    }
+
+    .item,
+    .reverse {
+        flex-direction: column;
+        gap: 28px;
+        margin-bottom: 70px;
+    }
+
+    .item img {
+        width: 100%;
+        max-width: 360px;
+        height: 240px;
+    }
+
+    .item-text {
+        width: 100%;
+        max-width: 340px;
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    .item-text h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .candle-item {
+        gap: 28px;
+    }
+
+    .candle-text {
+        margin-left: 0;
+    }
+
+    .candle-img {
+        left: 0;
+    }
+
+    .plants {
+        height: 420px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
+        overflow: hidden;
+        background: #f3f1eb;
+        clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 100%);
+    }
+
+    /* .plants::before {
+        content: "";
+        position: absolute;
+        top: -85px;
+        left: 0;
+        width: 100%;
+        height: 140px;
+        background: #f3f1eb;
+        clip-path: polygon(0 0, 100% 45%, 100% 100%, 0 100%);
+        z-index: 0;
+    } */
+
+    .plant-bg {
+        position: absolute;
+        left: -150px;
+        bottom: -55px;
+        width: 560px;
+        opacity: 0.12;
+        z-index: 1;
+    }
+
+    .plants-text {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        padding: 0 24px;
+        transform: none;
+    }
+
+    .plants-text h2 {
+        font-size: 28px;
+    }
+
+    .plants-text p {
+        font-size: 18px;
+    }
+
+    .coffee {
+        padding: 80px 24px;
+    }
+
+    .coffee-text h2 {
+        font-size: 30px;
+    }
+
+    .coffee-text p {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .coffee img {
+        width: 100%;
+        max-width: 380px;
+    }
+
+    .cta {
+        padding: 90px 24px;
+    }
+
+    .cta p {
+        font-size: 18px;
+    }
+
+    .cta h2 {
+        font-size: 26px;
+        line-height: 1.7;
+    }
+
+    footer nav {
+        gap: 26px;
+        flex-wrap: wrap;
+    }
+
+    .hero::before {
+        background: rgba(0,0,0,0.38);
+    }
+
+    .hero h1 {
+        font-size: 64px;
+        text-shadow: 0 3px 12px rgba(0,0,0,0.45);
+    }
+
+    .hero p {
+        text-shadow: 0 2px 8px rgba(0,0,0,0.45);
+        line-height: 1.9;
+    }
+
+    .hero-text {
+        margin-top: -40px;
+    }
+
+    .item:last-child {
+        margin-bottom: 30px;
+    }
+}
